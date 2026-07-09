@@ -1,0 +1,228 @@
+[
+  {
+    "nome": "Partes",
+    "conteudo": "Identifica corretamente o contratante e a contratada, contendo qualificação suficiente para individualizar as partes e definir quem assume as obrigações contratuais.",
+    "margem": {
+      "aceitavel": [
+        "Nome ou razão social",
+        "CPF ou CNPJ",
+        "Representante legal quando aplicável",
+        "Qualificação suficiente para identificar ambas as partes"
+      ],
+      "negociavel": [
+        "Endereço completo",
+        "Estado civil",
+        "Profissão",
+        "Dados adicionais de contato",
+        "Cláusula específica sobre grupo econômico"
+      ],
+      "inaceitavel": [
+        "Ausência de identificação de uma das partes",
+        "Informações insuficientes para identificar o contratante",
+        "Representante sem poderes aparentes",
+        "Contradição entre as partes mencionadas no contrato"
+      ]
+    }
+  },
+  {
+    "nome": "Objeto do Contrato",
+    "conteudo": "Define os serviços de RH que serão prestados, delimitando claramente seu escopo.",
+    "margem": {
+      "aceitavel": [
+        "Descrição objetiva dos serviços",
+        "Escopo claramente definido"
+      ],
+      "negociavel": [
+        "Detalhamento das atividades",
+        "Cronograma",
+        "Entregáveis",
+        "Exclusões do escopo"
+      ],
+      "inaceitavel": [
+        "Objeto genérico ou indeterminado",
+        "Serviços contraditórios",
+        "Impossibilidade de identificar a prestação contratada"
+      ]
+    }
+  },
+  {
+    "nome": "Obrigações das Partes",
+    "conteudo": "Define os deveres e responsabilidades do contratante e da prestadora.",
+    "margem": {
+      "aceitavel": [
+        "Responsabilidades básicas de ambas as partes"
+      ],
+      "negociavel": [
+        "Fluxos operacionais",
+        "Procedimentos",
+        "Responsáveis internos",
+        "Prazos específicos"
+      ],
+      "inaceitavel": [
+        "Obrigações previstas apenas para uma parte sem justificativa",
+        "Responsabilidades contraditórias",
+        "Ausência de deveres mínimos"
+      ]
+    }
+  },
+  {
+    "nome": "Remuneração e Condições de Pagamento",
+    "conteudo": "Estabelece valores, forma de pagamento e reajustes.",
+    "margem": {
+      "aceitavel": [
+        "Valor",
+        "Forma de pagamento",
+        "Prazo de pagamento"
+      ],
+      "negociavel": [
+        "Índice de reajuste",
+        "Multa",
+        "Juros",
+        "Correção monetária",
+        "Tributos"
+      ],
+      "inaceitavel": [
+        "Valor indeterminado",
+        "Forma de pagamento inexistente",
+        "Cobranças contraditórias"
+      ]
+    }
+  },
+  {
+    "nome": "Prazo de Vigência e Rescisão",
+    "conteudo": "Define a duração do contrato e as hipóteses de encerramento.",
+    "margem": {
+      "aceitavel": [
+        "Prazo ou condição de término",
+        "Hipóteses de rescisão"
+      ],
+      "negociavel": [
+        "Renovação automática",
+        "Aviso prévio",
+        "Multa rescisória",
+        "Período de transição"
+      ],
+      "inaceitavel": [
+        "Contrato sem forma de encerramento",
+        "Rescisão unilateral abusiva",
+        "Cláusulas contraditórias sobre vigência"
+      ]
+    }
+  },
+  {
+    "nome": "Confidencialidade",
+    "conteudo": "Protege informações confidenciais compartilhadas durante a execução do contrato.",
+    "margem": {
+      "aceitavel": [
+        "Obrigação de sigilo"
+      ],
+      "negociavel": [
+        "Prazo de confidencialidade",
+        "Penalidades",
+        "Exceções",
+        "Devolução de documentos"
+      ],
+      "inaceitavel": [
+        "Ausência de proteção de informações sensíveis",
+        "Autorização irrestrita de divulgação",
+        "Contradições sobre confidencialidade"
+      ]
+    }
+  },
+  {
+    "nome": "Proteção de Dados (LGPD)",
+    "conteudo": "Regula o tratamento de dados pessoais conforme a LGPD.",
+    "margem": {
+      "aceitavel": [
+        "Compromisso de cumprimento da LGPD"
+      ],
+      "negociavel": [
+        "Definição de controlador e operador",
+        "Incidentes de segurança",
+        "Suboperadores",
+        "Bases legais"
+      ],
+      "inaceitavel": [
+        "Tratamento de dados sem qualquer proteção",
+        "Cláusulas incompatíveis com a LGPD",
+        "Transferência irrestrita de dados pessoais"
+      ]
+    }
+  },
+  {
+    "nome": "Responsabilidade Trabalhista e Previdenciária",
+    "conteudo": "Define a responsabilidade sobre encargos trabalhistas, previdenciários e fiscais.",
+    "margem": {
+      "aceitavel": [
+        "Responsabilidade claramente atribuída"
+      ],
+      "negociavel": [
+        "Comprovação periódica de recolhimentos",
+        "Direito de auditoria",
+        "Retenções"
+      ],
+      "inaceitavel": [
+        "Transferência ilegal de responsabilidade",
+        "Ausência de definição das responsabilidades",
+        "Contradições entre cláusulas"
+      ]
+    }
+  },
+  {
+    "nome": "Níveis de Serviço (SLA)",
+    "conteudo": "Estabelece indicadores de desempenho da prestação dos serviços.",
+    "margem": {
+      "aceitavel": [
+        "Prazos ou indicadores mínimos"
+      ],
+      "negociavel": [
+        "KPIs",
+        "Metas quantitativas",
+        "Tempos de resposta",
+        "Penalidades"
+      ],
+      "inaceitavel": [
+        "Impossibilidade de medir a prestação do serviço",
+        "Indicadores contraditórios"
+      ]
+    }
+  },
+  {
+    "nome": "Penalidades e Limitação de Responsabilidade",
+    "conteudo": "Prevê multas, indenizações e limites de responsabilidade.",
+    "margem": {
+      "aceitavel": [
+        "Previsão de responsabilização por inadimplemento"
+      ],
+      "negociavel": [
+        "Limites indenizatórios",
+        "Força maior",
+        "Graduação das multas"
+      ],
+      "inaceitavel": [
+        "Isenção absoluta de responsabilidade",
+        "Multas manifestamente abusivas",
+        "Contradições sobre responsabilização"
+      ]
+    }
+  },
+  {
+    "nome": "Foro e Solução de Controvérsias",
+    "conteudo": "Define como serão resolvidos os conflitos decorrentes do contrato.",
+    "margem": {
+      "aceitavel": [
+        "Definição do foro ou mecanismo de resolução"
+      ],
+      "negociavel": [
+        "Mediação",
+        "Arbitragem",
+        "Negociação prévia"
+      ],
+      "inaceitavel": [
+        "Ausência de qualquer mecanismo de solução de conflitos",
+        "Foro juridicamente impossível",
+        "Cláusulas contraditórias"
+      ]
+    }
+  }
+]

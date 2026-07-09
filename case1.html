@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegalX Cases - Case 1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#121212] text-gray-100 font-sans min-h-screen flex flex-col">
+
+    <nav class="bg-[#1e1e1e] border-b border-gray-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-2">
+                    <span class="text-blue-500 font-black text-xl tracking-wider">LegalX</span>
+                </div>
+                <div class="flex space-x-1 md:space-x-4 text-sm md:text-base overflow-x-auto">
+                    <a href="index.html" class="text-gray-300 hover:bg-gray-850 hover:text-white px-3 py-2 rounded-md font-medium transition">Home</a>
+                    <a href="case1.html" class="bg-blue-600 text-white px-3 py-2 rounded-md font-medium">Case 1</a>
+                    <a href="classificador.html" class="text-gray-300 hover:bg-gray-850 hover:text-white px-3 py-2 rounded-md font-medium transition text-yellow-450">⚡ Classificador (POC)</a>
+                    <a href="case2.html" class="text-gray-300 hover:bg-gray-850 hover:text-white px-3 py-2 rounded-md font-medium transition">Case 2</a>
+                    <a href="case3.html" class="text-gray-300 hover:bg-gray-850 hover:text-white px-3 py-2 rounded-md font-medium transition">Case 3</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-grow max-w-4xl mx-auto px-4 py-12 w-full">
+        <div class="bg-[#1e1e1e] p-8 rounded-xl border border-gray-850 shadow-2xl space-y-8">
+            <div>
+                <h1 class="text-3xl font-bold text-white mb-2">Parte 1 - Fluência em IA</h1>
+                <p class="text-gray-400">Enquadramento do problema e estruturação lógica da inteligência artificial.</p>
+            </div>
+
+            <section class="bg-[#161616] p-6 rounded-lg border border-gray-800 space-y-3">
+                <h2 class="text-xl font-semibold text-blue-400">Enunciado & Descrição do Problema</h2>
+                <ul class="list-disc pl-5 text-gray-300 space-y-1 text-sm">
+                    <li>Startup de RH, 3 anos, expansão comercial.</li>
+                    <li>Contratos enviados pelo cliente, 3 a 4 por semana, em expansão.</li>
+                    <li>Problema: startup recebe o contrato e precisa ler do zero, não tem escala.</li>
+                    <li>LegalX já tem banco de cláusulas - classificados em aceitável, negociável e inaceitável -> não estruturado (experiências pessoais, e-mails e mensagens).</li>
+                    <li>Objetivo: tornar o fluxo mais inteligente, usando IA.</li>
+                    <li>Métricas: rápido, consistente, independente de supervisão humana.</li>
+                </ul>
+            </section>
+
+            <section class="space-y-4">
+                <h2 class="text-2xl font-semibold text-white">Solução Proposta</h2>
+                <div class="grid md:grid-cols-3 gap-4">
+                    <div class="bg-gray-900 p-4 rounded-lg border border-gray-800">
+                        <h3 class="font-bold text-blue-400 mb-1">1. Banco de Cláusulas</h3>
+                        <p class="text-sm text-gray-400">Estruturação em formato JSON com nome, conteúdo e margens de aceitação.</p>
+                    </div>
+                    <div class="bg-gray-900 p-4 rounded-lg border border-gray-800">
+                        <h3 class="font-bold text-blue-400 mb-1">2. Leitor Inteligente</h3>
+                        <p class="text-sm text-gray-400">Separação de cláusulas e classificação dinâmica (aceitável | negociável | inaceitável).</p>
+                    </div>
+                    <div class="bg-gray-900 p-4 rounded-lg border border-gray-800">
+                        <h3 class="font-bold text-blue-400 mb-1">3. Relatório Final</h3>
+                        <p class="text-sm text-gray-400">Sumário executivo estruturado para tomada rápida de decisão.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="space-y-3">
+                <h2 class="text-xl font-semibold text-white">Uso de IA (ChatGPT - Pessoal)</h2>
+                <div class="bg-gray-900 p-4 rounded-lg border border-gray-800 text-sm font-mono text-gray-300">
+                    <p class="text-gray-500 mb-2">// Criação de projeto com a descrição:</p>
+                    <p>"Quero criar um produto que realize a análise de contratos de prestação de serviços de RH para terceiros e classifique as cláusulas de acordo com banco de dados que possuo. Em seguida, analise cada uma e faça uma nova análise. Não iremos mexer nos códigos nesse momento, apenas analisar o funcionamento."</p>
+                    <p class="text-blue-400 mt-4"><a href="https://chatgpt.com/share/6a4eb1d0-a8fc-83e9-b2fd-fb77db117062" target="_blank" class="underline">Conversa 1 Link Histórico</a></p>
+                    <p class="text-xs text-gray-500 mt-2">OBS: não conheço um contrato de RH, pedi para a IA organizar as cláusulas necessárias e já fazer essa classificação. Em um caso real, como mencionado no enunciado, essa etapa seria realizada com entrevistas e análise dos textos.</p>
+                </div>
+            </section>
+
+            <section class="space-y-3">
+                <h2 class="text-xl font-semibold text-white">Script / Fluxo Operacional</h2>
+                <ol class="list-decimal pl-5 space-y-4 text-gray-350 text-sm">
+                    <li><strong>Recebe o documento.</strong> Premissas: É um .pdf, está em OCR, sem imagens.</li>
+                    <li><strong>Chama a IA via API:</strong> Passa o JSON na janela de contexto com o prompt: <code class="bg-gray-950 px-1 py-0.5 text-yellow-400">"Faça a classificação do documento enviado conforme o clausulas.json."</code> gerando uma saída estruturada em JSON.</li>
+                    <li><strong>Relatório final:</strong> Impressão estruturada em PDF contendo Nome do documento, Cláusula, Situação e Justificativa.</li>
+                </ol>
+            </section>
+
+            <section class="space-y-2">
+                <h2 class="text-xl font-semibold text-white">Desdobramentos Futuros</h2>
+                <ul class="list-disc pl-5 text-sm text-gray-400 space-y-1">
+                    <li>O JSON atual deve virar a base do RAG interno. Quando a IA encontrar cláusulas não existentes nele faz a sugestão para o incremento e avisa o advogado responsável para configurar a avaliação.</li>
+                    <li>Um módulo de extração de PDF para texto pode ser usado por vários produtos, vale a pena transformar em uma API separada para reaproveitamento.</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-[#1a1a1a] border-t border-gray-800 py-6 text-center text-sm text-gray-500">
+        Opice Blum © 2026 | Redefinindo os limites do possível
+    </footer>
+</body>
+</html>
