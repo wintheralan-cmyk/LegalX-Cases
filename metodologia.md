@@ -5,7 +5,7 @@
 Elaborado por Alan Bragança Winther
 
 ## Utilização de IA
-Gemini
+Gemini (3.5 Flash)
 Projeto: LegalX Cases
 Descrição: Criar um site (HTML e React) para esse processo seletivo. Será hospedado no meu github. Deve ser simples e completo (tenho poucas horas para finalizar).
 Prompt:
@@ -18,6 +18,8 @@ Faça uma página para hospedar no meu github. Ela deve conter 6 arquivos HTML:
 Use como identidade visual o do enunciado (arquivo .pdf)
 Caso tenha entendido tudo, forneça os arquivos novos para subir no github. Não irei subir esses do projeto.
 ```
+
+Revisão e correções realizadas manualmente.
 
 ## Arquivos 
 - metodologia.md: este arquivo
